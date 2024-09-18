@@ -47,14 +47,22 @@ const OrderSummary = ({ restaurant, cartItems, removeFromCart }: Props) => {
                 size={20}
                 onClick={() => removeFromCart(item)}
               />
+<<<<<<< HEAD
               ৳{((item.price * item.quantity) ).toFixed(2)}
+=======
+              ৳{((item.price * item.quantity)).toFixed(2)}
+>>>>>>> 19ad1d2203a7feab919b0bd6207c8138e340d8ad
             </span>
           </div>
         ))}
         <Separator />
         <div className="flex justify-between">
           <span>Delivery</span>
+<<<<<<< HEAD
           <span>৳{(restaurant.deliveryPrice ).toFixed(2)}</span>
+=======
+          <span>৳{(restaurant.deliveryPrice).toFixed(2)}</span>
+>>>>>>> 19ad1d2203a7feab919b0bd6207c8138e340d8ad
         </div>
         <Separator />
       </CardContent>

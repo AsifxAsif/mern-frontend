@@ -68,7 +68,11 @@ const OrderItemCard = ({ order }: Props) => {
           <div>
             Total Cost:
             <span className="ml-2 font-normal">
+<<<<<<< HEAD
             ৳{(order.totalAmount ).toFixed(2)}
+=======
+              ৳{(order.totalAmount).toFixed(2)}
+>>>>>>> 19ad1d2203a7feab919b0bd6207c8138e340d8ad
             </span>
           </div>
         </CardTitle>
