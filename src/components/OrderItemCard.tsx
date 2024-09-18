@@ -68,7 +68,7 @@ const OrderItemCard = ({ order }: Props) => {
           <div>
             Total Cost:
             <span className="ml-2 font-normal">
-              ${(order.totalAmount / 100).toFixed(2)}
+              TK{(order.totalAmount).toFixed(2)}
             </span>
           </div>
         </CardTitle>
