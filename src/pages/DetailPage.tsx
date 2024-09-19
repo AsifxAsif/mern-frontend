@@ -49,7 +49,7 @@ const DetailPage = () => {
           {
             _id: menuItem._id,
             name: menuItem.name,
-            price: menuItem.price,
+            price: (menuItem.price),
             quantity: 1,
           },
         ];
